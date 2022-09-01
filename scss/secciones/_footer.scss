@@ -1,0 +1,12 @@
+.footer{
+    form{
+        input{
+            &:focus{
+                background-color: aqua;
+            }
+            &:placeholder{
+                color: white;
+            }
+        }
+    }
+}

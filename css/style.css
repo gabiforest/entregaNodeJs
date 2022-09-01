@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main-index {
+  background-color: burlywood;
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column; }
+  .main-index .card {
+    max-width: 350px;
+    margin: 0 auto; }
+    .main-index .card h2 {
+      font-family: sans-serif; }
+      .main-index .card h2:hover {
+        color: red;
+        background-color: turquoise; }
+
+@media (min-width: 550px) {
+  .main-index {
+    flex-direction: row; }
+    .main-index .card h2:hover {
+      background-color: bisque; } }
+
+.header {
+  background-color: bisque;
+  height: 20vh; }
+  .header li {
+    list-style: none;
+    text-align: center; }
+
+.footer form input:focus {
+  background-color: aqua; }
+
+.footer form input:placeholder {
+  color: white; }
