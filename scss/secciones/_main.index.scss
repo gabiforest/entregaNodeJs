@@ -1,5 +1,5 @@
 .main-index{
-    background-color: burlywood;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     text-align: center;
     min-height: 50vh;
     display: flex;
@@ -7,23 +7,53 @@
     .card{
         max-width: 350px;
         margin: 0 auto;
+        margin-top: 3px;
+        margin-bottom: 3px;
         h2 {
             font-family: sans-serif;
+            color: #ee8a0fec;
             &:hover{
-                color: red;
+                color: #a57474;
                 background-color: turquoise;
             }         
+        }
+        button{
+            background-color: black;
+            a{
+                text-decoration: none;
+                color: greenyellow;
+                font-weight: bold;    
+            }
+
         }
     }
 }
 @media (min-width: 550px){
     .main-index{
+        display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         .card{
+            display: flex;
+            flex-direction: column;
+            width: 20vw;
+            img{
+                width: 150px;
+                height: 150px;
+                align-self: center;
+            }
             h2{
+                font-size: x-large;
+                color: #ee8a0fec;
                 &:hover{
                     background-color: bisque;
                 }
+            }
+            p{
+                text-align: justify;
+                font-size: medium;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #be8136;
             }
         }
     }

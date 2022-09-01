@@ -1,12 +1,14 @@
 .footer{
-    form{
-        input{
-            &:focus{
-                background-color: aqua;
-            }
-            &:placeholder{
-                color: white;
-            }
-        }
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 10vh;
+    a{
+        margin: 5px;
+        padding: 5px;
+        text-decoration: none;
+        color: #10e710ce;
     }
 }

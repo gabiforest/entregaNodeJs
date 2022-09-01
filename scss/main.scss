@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import './secciones/main.index';
-@import './secciones/header';
-@import './secciones/footer';
-
+@import './secciones/main.index.scss';
+@import './secciones/header.scss';
+@import './secciones/footer.scss';
+@import './secciones/contacto';

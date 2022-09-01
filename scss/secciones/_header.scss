@@ -1,8 +1,35 @@
 .header{
-    background-color: bisque;
-    height: 20vh;
-    li{
-        list-style: none;
-        text-align: center;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        display: flex;
+        align-self: center;
+        width: 100px;
+        height: 100px;
+        margin: 3px;
     }
-}
+    h1{
+        color: #52504e;
+        text-align: center;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;    
+            ul li{
+                list-style: none;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: #52504e;
+            }
+        }
+        
+    }
